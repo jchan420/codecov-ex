@@ -3,6 +3,8 @@ using namespace std;
 #include "fizz.h"
 
 
-bool fizz::Fizz(string input) {
-	return true;
+string fizz::Fizz(int input) {
+    string temp;
+    temp = to_string(input);
+	return temp;
 }

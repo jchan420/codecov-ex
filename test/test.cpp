@@ -3,7 +3,7 @@
 using namespace fizz;
 
 TEST(FizzTesting, test1) {
-    EXPECT_TRUE(Fizz("Hi"));
+    EXPECT_EQ(Fizz(5), "5");
 }
 
 int main(int argc, char **argv) {

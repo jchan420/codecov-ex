@@ -5,7 +5,7 @@
 namespace fizz {
 
 	// functions
-	bool Fizz(std::string input);
+	std::string Fizz(int input);
 
 }
 #endif
